@@ -21,7 +21,6 @@
 	<head> 
 
 		<meta charset="utf-8"> 
-		<meta data-thing="test">
 
 		<title>Hacker</title>
 
