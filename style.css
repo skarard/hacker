@@ -1,0 +1,117 @@
+body{
+	background:#1e1e3e;
+	color:#00FF00;
+	font-family:monospace;
+	height: 100%;
+	margin:0px;
+	padding:0px;
+}
+
+.access{
+	position: absolute;
+	top:50%;
+	margin-top:-50px;
+	left:50%;
+	width:300px;
+	margin-left:-150px;
+	padding:20px;
+	text-align:center;
+}
+
+.Granted{
+	background:#333;
+	border:1px solid #999;
+}
+
+.Denied{
+	color:#F00;
+	background:#511;
+	border:1px solid #F00;
+}
+
+.progresswrap {
+	width:30px;
+	height: 98%;
+	border: 1px solid #00ef00;
+	background:#1e1e3e;
+	position: fixed;
+	right: 1%;
+	top: 1%;
+}
+
+.spacer {
+	height: 3%;
+}
+
+.progressborder {
+	width:10px;
+	height: 94%;
+	border: 1px solid #00aa00;
+	background: #00cc00;
+	margin: 0 auto;
+	position:relative;
+}
+
+#progressbar {
+	width:100%;
+	background: #000;
+	height:100%;
+}
+
+a {
+	padding: 5px 10px;
+	border: 1px solid #0f0;
+	border-radius: 3px;
+	color:#0f0;
+}
+
+.image {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px 10px;
+	border: 1px solid #0f0;
+	border-radius: 3px;
+	color:#0f0;
+	margin: 5px 10px;
+}
+
+#console {
+	width:100%;
+	height:100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position: absolute;
+}
+
+#compilewrap {
+	position:fixed;
+	top:5%;
+	height: 90%;
+	left: 15%;
+	width: 60%;
+	background:#333;
+	border:1px solid #999;
+	display:none;
+}
+
+#compilewrap h2 {
+margin: 0 0 0 auto;
+width:98%;
+height:5%;
+}
+
+#compile {
+	height:90%;
+	width:98%;
+	margin: 0 0 0 auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#giphy {
+	display:none;
+	position: absolute;
+	width:100%;
+	height:100%;
+}
